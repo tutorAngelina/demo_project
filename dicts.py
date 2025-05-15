@@ -19,3 +19,8 @@ spanish_numbers = {
     4: "cuatro",
     5: "cinco"    
 }
+for key in spanish_numbers:
+    print(spanish_numbers[key],end=" ")
+
+
+
