@@ -9,3 +9,10 @@ For loop syntax:
 for _____ in _____:
     do something
 """
+vals = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for val in range(0, 12, 2):
+    print(val)
+
+name = "Siddh Doshi"
+for nam in range(-1, -11, -1):
+    print(name[nam], end="")
