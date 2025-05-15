@@ -12,3 +12,10 @@ california_slang = {
 
 print(california_slang["No yeah"]) <- this will print "Yes"
 '''
+spanish_numbers = {
+    1: "uno",
+    2: "dos",
+    3: "tres",
+    4: "cuatro",
+    5: "cinco"    
+}
