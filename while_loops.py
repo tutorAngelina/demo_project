@@ -19,3 +19,12 @@ For reading user input, we can use the following conditions in the while loop:
 * user_input - reads user_input forever
 * user_input != "stop condition" - reads user input until they enter some stop trigger like 'quit' or 'exit'
 '''
+user_input = int(input("What is the square root of 43?"))
+print(user_input)
+while user_input:
+    if user_input == 7:
+        print("correct")
+        break
+    else:
+        print("you suck at math")
+        user_input = int(input("What is the square root of 43?"))
