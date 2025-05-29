@@ -22,3 +22,8 @@ Engineers who created the button know it is a commonly used operation and so the
 
 #TODO: Create a function called "squared" which computes the square of a number 
 #      For example squared(4) should return 16
+def squared(x):
+    return x * x
+
+number = int(input("Find the square of any number you choose in a matter of seconds!"))
+print(squared(number))
